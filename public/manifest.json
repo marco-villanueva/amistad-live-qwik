@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "amistad-live",
+  "short_name": "Bienvenidos a Amistad Live",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Somos una comunidad centrada en Dios cerca de ti"
+}
