@@ -1,17 +1,16 @@
-import { component$, Slot, useStyles$ } from '@builder.io/qwik';
+import { component$, Slot } from '@builder.io/qwik';
 import { Header } from '~/components/Header';
 import { Footer } from '~/components/Footer';
-import styles from './styles.css?inline';
+import styles from './layout.module.css'
 
 export default component$(() => {
-  useStyles$(styles);
   return (
-    <>
+    <div class={styles.body}>
       <Header />
-      <main>
+      <main class={styles.main}>
         <Slot />
       </main>
       <Footer />
-    </>
+    </div>
   );
 });

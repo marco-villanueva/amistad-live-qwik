@@ -1,0 +1,20 @@
+.desktop {
+    column-gap: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    margin-right: 3rem;
+}
+
+.mobile {
+    column-gap: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    margin-right: 1rem;
+}
+
+.mobile path {
+    fill: rgb(82, 82, 82);
+
+}

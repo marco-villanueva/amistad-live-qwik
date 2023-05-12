@@ -1,0 +1,12 @@
+.body {
+    width: 100%;
+    display: grid;
+}
+
+.main {
+    padding: 1rem 2rem;
+
+    @media (max-width: 500px) {
+        padding: 1rem 1rem;
+    }
+}

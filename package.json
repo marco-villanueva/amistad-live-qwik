@@ -36,5 +36,8 @@
     "vite": "4.3.3",
     "vite-tsconfig-paths": "4.2.0",
     "wrangler": "latest"
+  },
+  "dependencies": {
+    "qwik-breakpoints": "^1.0.1"
   }
 }

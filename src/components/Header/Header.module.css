@@ -1,0 +1,7 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 1rem 2rem;
+    /* to-do: remove this */
+    border: 1px solid gray;
+}
