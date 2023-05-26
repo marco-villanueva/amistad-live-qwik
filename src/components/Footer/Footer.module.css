@@ -1,0 +1,46 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 5rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    column-gap: 4rem;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.address-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: gainsboro;
+}
+
+.address-text {
+    text-align: left;
+}
+
+.address-link {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: gainsboro;
+    margin-top: 0.5rem;
+}
+
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.phone-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: gainsboro;
+}
+
+.phone-text {}
