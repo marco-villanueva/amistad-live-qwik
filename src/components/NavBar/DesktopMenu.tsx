@@ -1,5 +1,4 @@
 import { component$, useVisibleTask$ } from "@builder.io/qwik";
-import styles from './NavBar.module.css';
 import { type menu } from "~/interfaces/navbar-interface";
 import { Link } from "@builder.io/qwik-city";
 
