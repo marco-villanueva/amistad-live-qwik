@@ -1,13 +1,18 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
-html {font-size: 100%;} /*16px*/
-
-body {
+/* body {
   background: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -43,4 +48,4 @@ a {
   color: inherit;
   text-decoration: none;
   font: inherit;
-}
+} */

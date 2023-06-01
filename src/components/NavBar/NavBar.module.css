@@ -25,12 +25,14 @@
 }
 
 .mobile {
-    column-gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 3rem;
     display: flex;
     flex-direction: row;
     justify-self: end;
     margin-right: 1rem;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 .mobile path {

@@ -5,7 +5,13 @@ import { Hero } from '~/components/Hero/Hero';
 export default component$(() => {
   return (
     <>
-      <Hero title='Amistad Live' subtitle='Bienvenido a Casa' url='https://cdn.pixabay.com/photo/2017/01/03/07/32/bible-1948778_960_720.jpg'/>
+      <Hero
+        title='Amistad Live'
+        subtitle='Donde encontrarás una casa para todos'
+        url='https://cdn.pixabay.com/photo/2017/01/03/07/32/bible-1948778_960_720.jpg'
+        buttonText="Queremos conocerte"
+        buttonUrl="/contacto"
+      />
     </>
   );
 });

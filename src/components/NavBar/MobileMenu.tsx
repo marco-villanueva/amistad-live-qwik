@@ -18,6 +18,9 @@ export const MobileMenu = component$<menu>(({ sections, activePath }) => {
 
   return (
     <div class={styles.mobile}>
+      <div class="mr-8">
+        <img src="/images/logo.png" />
+      </div>
       <div onClick$={toggleMenu}>
         <Menu />
       </div>

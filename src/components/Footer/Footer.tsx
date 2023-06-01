@@ -3,16 +3,16 @@ import styles from './Footer.module.css';
 
 export const Footer = component$(() => {
   return (
-    <div class={styles.footer}>
-      <section class={styles['address-container']} >
-        <span class={styles['address-title']}>Visítanos en:</span>
-        <span class={styles['address-text']}>Privada Sol #7 Col. Chapultepec, Cuernavaca, Morelos, México. C.P. 62450</span>
-        <span class={styles['address-link']}>Búscanos en Google Maps</span>
-      </section>
-      <section class={styles['phone-container']} >
-        <span class={styles['phone-title']} >Contáctanos: </span>
-        <span class={styles['phone-text']} >WhatsApp: +52 (777) 608-9602</span>
-      </section>
-    </div>
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <div>
+        <span class="footer-title">Visítanos en:</span>
+        <a class="link link-hover">Privada Sol #7 Col. Chapultepec, Cuernavaca, Morelos, México. C.P. 62450</a>
+        <a class="link link-hover">Búscanos en Google Maps</a>
+      </div>
+      <div>
+        <span class="footer-title">Contáctanos: </span>
+        <a class="link link-hover">WhatsApp: +52 (777) 608-9602</a>
+      </div>
+    </footer>
   )
 });
