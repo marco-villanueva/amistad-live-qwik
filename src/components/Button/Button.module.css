@@ -1,0 +1,45 @@
+.btn {
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--theme-primary100);
+    color: var(--theme-neutral100);
+    height: 4rem;
+    min-width: 11rem;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.primary:hover {
+    filter: brightness(98%);
+}
+
+.primary:active {
+    box-shadow: 0px 2px 2px #00000040;
+}
+
+.secondary {
+    background-color: var(--theme-neutral100);
+    color: var(--theme-primary100);
+    height: 4rem;
+    min-width: 12rem;
+}
+
+.secondary:hover {
+    color: var(--theme-neutral0)
+}
+
+.nav {
+    background-color: var(--theme-primary100);
+    color: var(--theme-neutral100);
+    height: 3rem;
+    min-width: 11rem;
+}
+
+.nav:hover {
+    filter: brightness(98%);
+}
+

@@ -1,46 +1,87 @@
-.footer {
+.main {
+    background-color: var(--theme-neutral90);
+    color: var(--theme-neutral0);
+    gap: 2rem;
+    justify-content: space-between;
+    min-height: 15rem;
+    padding: 2rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 2rem;
+
+    @media (max-width: 600px) {
+        padding: 2rem 2rem;
+    }
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logo {
+    max-width: 5rem;
+    max-height: 5rem;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.links {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem 5rem;
-    text-align: center;
-    color: white;
-    background-color: black;
-    column-gap: 4rem;
+    column-gap: 1rem;
 }
 
-.address-container {
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icon path {
+    fill: var(--theme-primary100);
+}
+
+.socialNetworksIcons {
     display: flex;
-    flex-direction: column;
-    align-items: start;
+    flex-direction: row;
+    gap: 1rem;
 }
 
-.address-title {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: gainsboro;
+.input {
+    background-color: var(--theme-neutral90);
+    border-color: var(--theme-neutral50);
+    border-radius: 10px 0 0 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: var(--theme-neutral0);
+    font-size: 1rem;
+    height: 3.75rem;
+    justify-self: end;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    width: 16rem;
+
+    @media (max-width: 600px) {
+        width: 100%;
+        border-radius: 10px;
+    }
 }
 
-.address-text {
-    text-align: left;
-}
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-.address-link {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: gainsboro;
-    margin-top: 0.5rem;
+    @media (max-width: 600px) {
+        grid-template-columns: unset;
+        justify-content: center;
+    }
 }
-
-.phone-container {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-.phone-title {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: gainsboro;
-}
-
-.phone-text {}

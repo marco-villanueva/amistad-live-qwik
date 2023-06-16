@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+  height: 100%;
+  justify-content: end;
+  margin-right: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu path {
+  fill: var(--theme-neutral0);
+}

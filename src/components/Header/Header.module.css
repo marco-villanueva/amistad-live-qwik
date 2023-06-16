@@ -1,3 +1,35 @@
+.header {
+    background-color: var(--theme-neutral100);
+    color: var(--theme-neutral0);
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    height: 5rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.logoContainer {
+    align-self: center;
+}
+
+.logo {
+    height: 3.25rem;
+    width: 11rem;
+}
+
+.navMenu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    width: 75vw;
+}
+
+/* -------------------------- */
+
 .desktop {
     column-gap: 3rem;
     display: flex;
