@@ -27,10 +27,10 @@ export const Footer = component$(() => {
       <div class={styles.socialNetworks}>
         <h5>Social Networks</h5>
         <div class={styles.socialNetworksIcons}>
-          <a href="#"><FacebookIcon style={styles.icon} /></a>
-          <a href="#"><InstagramIcon style={styles.icon} /></a>
-          <a href="#"><YoutubeIcon style={styles.icon} /></a>
-          <a href="#"><WhatsappIcon style={styles.icon} /></a>
+          <a href="#" aria-label="Browse our Facebook"><FacebookIcon style={styles.icon} /></a>
+          <a href="#" aria-label="Browse our Instagram"><InstagramIcon style={styles.icon} /></a>
+          <a href="#" aria-label="Browse our Youtube"><YoutubeIcon style={styles.icon} /></a>
+          <a href="#" aria-label="Contact us by Whatsapp"><WhatsappIcon style={styles.icon} /></a>
         </div>
       </div>
     </div>
