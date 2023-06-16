@@ -1,5 +1,4 @@
 import { $, component$, useSignal } from '@builder.io/qwik';
-import { useLocation } from '@builder.io/qwik-city';
 import styles from './Header.module.css';
 import { AmistadLogo } from '../icons/AmistadLogo';
 import { Link } from '@builder.io/qwik-city';
@@ -10,8 +9,6 @@ import { Menu } from "../icons/menu";
 export const Header = component$(() => {
 
   const isMenuOpenSignal = useSignal(false);
-  const loc = useLocation()
-  const activePath = loc.url.pathname;
   const screenSize = useScreenSize();
 
   const toggleMenu = $(() => isMenuOpenSignal.value = !isMenuOpenSignal.value);
