@@ -3,6 +3,7 @@
     border-radius: 0.75rem;
     font-size: 1rem;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 .primary {
@@ -30,6 +31,13 @@
 
 .secondary:hover {
     color: var(--theme-neutral0)
+}
+
+.green {
+    background-color: var(--theme-green100);
+    color: var(--theme-neutral0);
+    height: 4rem;
+    min-width: 12rem;
 }
 
 .nav {

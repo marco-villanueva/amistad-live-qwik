@@ -7,6 +7,7 @@
   --theme-primary50: #FFF5EB;
   --theme-primary25: #F5F2F0;
   --theme-neutral0: white;
+  --theme-green100: #2ab318;
 
 }
 
@@ -22,26 +23,32 @@ body {
 
 h1 {
   font-size: 4rem;
+  margin: 0;
 }
 
 h2 {
   font-size: 3rem;
+  margin: 0;
 }
 
 h3 {
   font-size: 2.5rem;
+  margin: 0;
 }
 
 h4 {
   font-size: 2rem;
+  margin: 0;
 }
 
 h5 {
   font-size: 1.5rem;
+  margin: 0;
 }
 
 h6 {
   font-size: 1rem;
+  margin: 0;
 }
 
 a {

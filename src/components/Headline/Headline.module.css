@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 2rem 0;
+
+}
+
+.subHeadline {
+    text-transform: uppercase;
+}
+
+.headline {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
