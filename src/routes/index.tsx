@@ -1,8 +1,11 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import { Button, ButtonProps } from '~/components/Button/Button';
+import { CardWithIcon } from '~/components/CardWithIcon/CardWithIcon';
 import { Headline } from '~/components/Headline/Headline';
 import { Hero } from '~/components/Hero/Hero';
+
+import styles from './index.module.css';
 
 export default component$(() => {
 
@@ -31,6 +34,12 @@ export default component$(() => {
         align='right'
       />
       <Headline headline='this is Headline' subHeadline='and this is sub-headline' />
+      <div class={styles.gridCardContainer}>
+        <CardWithIcon />
+        <CardWithIcon />
+        <CardWithIcon />
+      </div>
+
     </div>
   );
 });

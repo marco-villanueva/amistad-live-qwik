@@ -1,0 +1,41 @@
+.card {
+    /* border: 1px solid black; */
+    width: 100%;
+    max-width: 25rem;
+    min-width: 20rem;
+    max-height: 23.75rem;
+    aspect-ratio: 41 / 38;
+    position: relative;
+
+    display: grid;
+    grid-template-rows: 95% 5%;
+}
+
+.infoContainer {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--theme-primary50);
+}
+
+.figure {
+    width: 3rem;
+    height: 3rem;
+}
+
+.title {
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.description {
+    margin-top: 1rem;
+    max-height: 11rem;
+    overflow: hidden;
+}
+
+.decorator {
+    background-color: var(--theme-primary100);
+    height: 1rem;
+    bottom: 0;
+}

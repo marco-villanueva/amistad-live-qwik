@@ -1,5 +1,6 @@
 
 import { component$ } from '@builder.io/qwik';
+import { Typography } from '../UI/Typography';
 import styles from './Headline.module.css';
 
 export interface HeadlineProps {
@@ -10,8 +11,8 @@ export interface HeadlineProps {
 export const Headline = component$<HeadlineProps>(({ headline, subHeadline }) => {
   return (
     <div class={styles.container}>
-      <div class={styles.subHeadline}>{subHeadline}</div>
-      <h2 class={styles.headline}>{headline}</h2>
+      <Typography as="p" style={styles.subHeadline}>{subHeadline}</Typography>
+      <Typography as="h2" style={styles.headline}>{headline}</Typography>
     </div>
   );
 });

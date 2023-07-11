@@ -1,0 +1,8 @@
+.gridCardContainer {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, max-content));
+  grid-gap: 10px;
+  justify-content: center;
+  max-width: 100%;
+  justify-items: center;
+}
