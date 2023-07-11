@@ -1,17 +1,21 @@
-import { component$ } from '@builder.io/qwik';
+import { Slot, component$ } from '@builder.io/qwik';
 import styles from './CardWithIcon.module.css';
 import { AmistadIcon } from '../icons/AmistadIcon';
+import { Typography } from '../UI/Typography';
 
 export interface CardWithIconProps {
+    title: string;
 }
 
-export const CardWithIcon = component$<CardWithIconProps>((props) => {
+export const CardWithIcon = component$<CardWithIconProps>(({title}) => {
     return (
         <div class={styles.card}>
             <div class={styles.infoContainer}>
                 <AmistadIcon variant="dark" style={styles.figure} />
-                <h4 class={styles.title}>About us</h4>
-                <div class={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                <Typography as="h4" style={styles.title}>{title}</Typography>
+                <Typography as="span" style={styles.description}>
+                    <Slot/>
+                </Typography>
             </div>
             <div class={styles.decorator}></div>
         </div>
