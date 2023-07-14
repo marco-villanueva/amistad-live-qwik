@@ -9,11 +9,11 @@ export interface PhotoProps {
 
 export const Photo = component$<PhotoProps>(({ src, alt, mode = 'vertical' }) => {
     return (
-        <img
-            width="350"
-            height="466"
-            class={`${styles.photo} ${styles[mode]}`}
-            src={src}
-            alt={alt} />
+        <figure class={styles.photoContainer}>
+            <img
+                class={`${styles.photo} ${styles[mode]}`}
+                src={src}
+                alt={alt} />
+        </figure>
     );
 });

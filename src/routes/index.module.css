@@ -1,24 +1,25 @@
 .gridCardContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, max-content));
   grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(420px, max-content));
   justify-content: center;
-  max-width: 100%;
   justify-items: center;
+  max-width: 100%;
 }
 
 .gridImagesContainer {
-  margin: 3rem 0;
+  align-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, max-content));
   grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(370px, max-content));
   justify-content: center;
-  max-width: 100%;
   justify-items: center;
+  margin: 3rem 0;
+  max-width: 100%;
 }
 
 .paragraph {
+  margin: auto;
   max-width: 80vw;
   text-align: center;
-  margin: auto;
 }

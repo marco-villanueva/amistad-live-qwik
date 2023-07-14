@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: 'PT Serif', serif;
+
+    --morado: #735794;
+    --rosa: #CF6A63;
+    --beige: #F4F3ED;
+    --gris: #191919;
+    --negro: #000000;
+    --azul: #576393;
+    --naranja: #EA5F39;
+}
+
+
+.langing {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    padding: 2rem 8rem;
+    background-color: var(--beige);
+}
+
+.amistad-logo {
+    height: 5rem;
+    width: 20rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-image: url('https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310101/Fondo-Slider-con-flores---Amistad-Live_bbrurr.jpg');
+    background-size: cover;
+    min-height: 400px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+.hero-line-1 {
+    font-size: 6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--morado);
+}
+
+.hero-line-2 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--morado);
+    margin-bottom: 10px;
+}
+
+.hero-line-3 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--negro);
+    font-style: italic;
+    font-family: var(--font-secondary);
+    margin-bottom: 10px;
+}
+
+.hero-line-4 {
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    color: var(--negro);
+    margin-bottom: 10px;
+    border: 2px solid var(--negro);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.countdown-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown-number {
+    font-size: 5rem;
+}
+
+.countdown-text {
+    font-size: 2rem;
+}
+
+.countdown-dots {
+    font-size: 4rem;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--morado);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.hero-right {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-right img {
+    margin-left: 20px;
+}
+
+.countdown {
+    padding: 50px;
+    background-color: #735794;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.congress-section {
+    padding: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.congress-card {
+    display: flex;
+    align-items: center;
+    background-color: #F4F3ED;
+    border-radius: 20px;
+    max-width: 70%;
+}
+
+.congress-card-left {
+    flex-basis: 50%;
+}
+
+.congress-card-left iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.congress-card-right {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.congress-card-right h3 {
+    font-size: 24px;
+    color: var(--morado);
+    margin-bottom: 10px;
+}
+
+.congress-card-right p {
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 20px;
+}
+
+.fullwidth-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+
+.cost-section-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    background-color: var(--rosa);
+}
+
+.icon-with-text-box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-text{
+    font-size: 1.25rem;
+}
+
+.icons-main-container {
+    background-image: url('https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310100/Fondo-beneficios-1---Amistad-Live_kjpewt.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.cost-container{
+    color: white;
+    padding: 3rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cost-line-1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cost-line-2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cost-line-3 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cost-cta-button {
+    background-color: white;
+    color: var(--morado);
+    width: 10rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.white-card-section {
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+
+.white-card {
+    display: flex;
+    align-items: center;
+    background-color: #F4F3ED;
+    border-radius: 20px;
+}
+
+.white-card-left {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.white-card-left h3 {
+    font-size: 24px;
+    color: #191919;
+    margin-bottom: 10px;
+}
+
+.white-card-left p {
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 20px;
+}
+
+.white-card-right {
+    flex-basis: 50%;
+}
+
+.white-card-image {
+    flex-basis: 50%;
+    background-image: url('https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310101/Yvonne-02---Amistad-Live_wrn55u.jpg');
+}
+
+.white-card-right img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.image-background-section {
+    padding: 50px;
+    background-image: url('https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310101/Fondo-conferencistas---Amistad-Live_akguqw.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.conferencistas-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.conferencista {
+    text-align: center;
+}
+
+.conferencista img {
+    border-radius: 50%;
+}
+
+.conferencista h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.conferencista p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.timeline-section {
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+
+.timeline-card {
+    padding: 20px;
+    background-color: #F4F3ED;
+    border-radius: 20px;
+}
+
+.timeline-card h3 {
+    font-size: 24px;
+    color: #191919;
+    margin-bottom: 20px;
+}
+
+.timeline-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-item {
+    text-align: center;
+}
+
+.timeline-time {
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 10px;
+}
+
+.timeline-description {
+    font-size: 16px;
+    color: #191919;
+}
+
+.small-hero {
+    padding: 50px;
+    background-image: url('https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310101/Llamada-de-accio%CC%81n---Amistad-Live_xr1c3k.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.small-hero-content {
+    margin-bottom: 20px;
+}
+
+.small-hero-content h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.small-hero-content h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.white-card-section:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 20px;
+    background-color: #2e2e2e;
+    text-align: center;
+}
+
+footer img {
+    background-color: #000000;
+
+}
+
+.social-icons {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.mini-footer {
+    padding: 10px 20px;
+    background-color: #191919;
+    color: #FFFFFF;
+    text-align: center;
+}

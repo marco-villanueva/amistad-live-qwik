@@ -4,3 +4,11 @@
     -webkit-box-shadow: 2px 4px 19px -1px rgba(0, 0, 0, 0.51);
     -moz-box-shadow: 2px 4px 19px -1px rgba(0, 0, 0, 0.51);
 }
+
+.photoContainer {
+    width: 350px;
+}
+
+.photoContainer img {
+    max-width: 350px;
+}
