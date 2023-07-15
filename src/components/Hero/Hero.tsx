@@ -1,8 +1,6 @@
-import { JSXNode, component$ } from '@builder.io/qwik';
-
+import { component$ } from '@builder.io/qwik';
 import styles from './Hero.module.css';
-import { JSX } from '@builder.io/qwik/jsx-runtime';
-import { Button, ButtonProps } from '../Button/Button';
+import { Button, type ButtonProps } from '../Button/Button';
 import { Typography } from '../UI/Typography';
 
 export interface HeroProps {

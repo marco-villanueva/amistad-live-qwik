@@ -1,4 +1,4 @@
-import { CSSProperties, Slot, component$ } from '@builder.io/qwik';
+import { type CSSProperties, Slot, component$ } from '@builder.io/qwik';
 import styles from './Typography.module.css';
 
 const classNames = {

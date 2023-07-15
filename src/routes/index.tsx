@@ -1,13 +1,13 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import { ButtonProps } from '~/components/Button/Button';
+import { type ButtonProps } from '~/components/Button/Button';
 import { CardWithIcon } from '~/components/CardWithIcon/CardWithIcon';
 import { Headline } from '~/components/Headline/Headline';
 import { Hero } from '~/components/Hero/Hero';
 
 import styles from './index.module.css';
 import { Typography } from '~/components/UI/Typography';
-import { Photo } from '~/components/Photo/Photo';
+// import { Photo } from '~/components/Photo/Photo';
 
 export default component$(() => {
 
@@ -54,11 +54,11 @@ export default component$(() => {
       <Typography as="h4" style={styles.paragraph}>
         ¡Pero puedes contactarnos o seguirnos en nuestras redes sociales!
       </Typography>
-      <div class={styles.gridImagesContainer}>
+      {/* <div class={styles.gridImagesContainer}>
         <Photo src='https://cdn.pixabay.com/photo/2017/08/30/12/18/kid-2696865_1280.jpg' alt="kid" />
         <Photo src='https://cdn.pixabay.com/photo/2022/04/30/20/45/friendship-7166375_1280.jpg' alt="family" />
         <Photo src='https://cdn.pixabay.com/photo/2016/11/29/04/48/man-1867390_1280.jpg' alt="pray" />
-      </div>
+      </div> */}
     </div>
   );
 });
