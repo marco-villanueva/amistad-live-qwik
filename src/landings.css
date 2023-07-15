@@ -151,10 +151,12 @@
     background-color: #F4F3ED;
     border-radius: 20px;
     max-width: 70%;
+    overflow: hidden;
 }
 
 .congress-card-left {
     flex-basis: 50%;
+    width: 50%;
 }
 
 .congress-card-left iframe {
@@ -165,6 +167,8 @@
 .congress-card-right {
     flex-basis: 50%;
     padding: 20px;
+    overflow: hidden;
+    width: 50%;
 }
 
 .congress-card-right h3 {
@@ -192,13 +196,13 @@
     background-color: var(--rosa);
 }
 
-.icon-with-text-box{
-    display:flex;
+.icon-with-text-box {
+    display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.icon-text{
+.icon-text {
     font-size: 1.25rem;
 }
 
@@ -210,7 +214,7 @@
     padding: 2rem;
 }
 
-.cost-container{
+.cost-container {
     color: white;
     padding: 3rem;
     width: 80%;
@@ -249,6 +253,96 @@
     cursor: pointer;
 }
 
+.gratis-cta-button {
+    background-color: var(--rosa);
+    color: white;
+    width: 10rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.gratis-cta-button {
+    background-color: var(--rosa);
+    color: white;
+    width: 10rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.como-llegar {
+    background-color: var(--morado);
+    color: white;
+    width: 10rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.botton-centred {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.congress-card-photo {
+    background-image: url('https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310101/Yvonne-02---Amistad-Live_wrn55u.jpg');
+    background-size: cover;
+    width: 50%;
+    min-height: 25rem;
+}
+
+
+
+.concert-date {
+    border: 1px solid var(--morado);
+    padding: 0.25rem 1rem;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.concert-date-price {
+    border: 1px solid var(--morado);
+    background-color: var(--morado);
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 12px;
+    margin-right: -2rem;
+}
+
+.congress-card .gratis {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+s {
+    text-decoration: none;
+    position: relative;
+}
+
+s::before {
+    top: 50%;
+    background: red;
+    opacity: .7;
+    content: '';
+    width: 110%;
+    position: absolute;
+    height: .1em;
+    border-radius: .1em;
+    left: -5%;
+    white-space: nowrap;
+    display: block;
+    transform: rotate(-15deg);
+}
+
 .white-card-section {
     padding: 50px;
     background-color: #FFFFFF;
@@ -282,6 +376,10 @@
     flex-basis: 50%;
 }
 
+.white-card-right h3 {
+    color: var(--morado)
+}
+
 .white-card-image {
     flex-basis: 50%;
     background-image: url('https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310101/Yvonne-02---Amistad-Live_wrn55u.jpg');
@@ -301,14 +399,19 @@
 }
 
 .conferencistas-card {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 450px));
+    gap: 3rem;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
 }
 
 .conferencista {
     text-align: center;
+    background-color: white;
+    border: 2px solid var(--beige);
+    border-radius: 2rem;
+    padding: 3rem 2rem;
+    color: var(--negro);
 }
 
 .conferencista img {
@@ -317,13 +420,12 @@
 
 .conferencista h4 {
     font-size: 24px;
-    color: #FFFFFF;
     margin: 10px 0;
 }
 
 .conferencista p {
     font-size: 18px;
-    color: #FFFFFF;
+    text-align: left;
 }
 
 .timeline-section {
@@ -331,62 +433,31 @@
     background-color: #FFFFFF;
 }
 
-.timeline-card {
-    padding: 20px;
-    background-color: #F4F3ED;
-    border-radius: 20px;
-}
-
-.timeline-card h3 {
-    font-size: 24px;
-    color: #191919;
-    margin-bottom: 20px;
-}
-
-.timeline-content {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.timeline-item {
-    text-align: center;
-}
-
-.timeline-time {
-    font-size: 18px;
-    color: #191919;
-    margin-bottom: 10px;
-}
-
-.timeline-description {
-    font-size: 16px;
-    color: #191919;
-}
-
 .small-hero {
     padding: 50px;
     background-image: url('https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310101/Llamada-de-accio%CC%81n---Amistad-Live_xr1c3k.jpg');
     background-size: cover;
+    background-position: right;
     color: #FFFFFF;
-    text-align: center;
 }
 
 .small-hero-content {
     margin-bottom: 20px;
+    max-width: 25rem;
+    text-align: center;
+    margin-left: 2rem;
 }
 
 .small-hero-content h1 {
-    font-size: 36px;
+    font-size: 3.5rem;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .small-hero-content h2 {
     font-size: 24px;
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .white-card-section:last-child {
@@ -396,7 +467,6 @@
 footer {
     padding: 20px;
     background-color: #2e2e2e;
-    text-align: center;
 }
 
 footer img {
@@ -415,4 +485,110 @@ footer img {
     background-color: #191919;
     color: #FFFFFF;
     text-align: center;
+}
+
+
+/* AQUI VA EL CSS DEL TIMELINE  */
+
+.timeline-title{
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.25rem;
+}
+
+
+.timeline-section {
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+
+.timeline-main {
+    background-color: var(--beige);
+
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.timeline-header {
+    background-color: var(--morado);
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 1rem 3rem;
+}
+
+.timeline-container {
+    background-color: var(--beige);
+}
+
+
+.timeline {
+    border-left: 4px solid black;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    color: black;
+    margin: 10px auto;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 30%;
+}
+
+.timeline h1 {
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -217.5px;
+    color: black;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+.timeline .event:after {
+    left: -57.85px;
+    background: red;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    top: 5px;
 }
