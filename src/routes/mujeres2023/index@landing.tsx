@@ -2,6 +2,10 @@ import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import { Countdown } from '~/components/Countdown/Countdown';
 import { AmistadLogo } from '~/components/icons/AmistadLogo';
+import { FacebookIcon } from '~/components/icons/FacebookIcon';
+import { InstagramIcon } from '~/components/icons/InstagramIcon';
+import { WhatsappIcon } from '~/components/icons/WhatsappIcon';
+import { YoutubeIcon } from '~/components/icons/YoutubeIcon';
 
 
 export default component$(() => {
@@ -22,7 +26,7 @@ export default component$(() => {
           <span class="hero-line-2">Entre mujeres</span>
           <span class="hero-line-3">"Vivamos en libertad"</span>
           <span class="hero-line-4">5 AGOSTO | 10:00 AM A 6:00 PM</span>
-          <a  target="_blank" href="https://wa.me/527776089602" class="cta-button"><i class="fa-brands fa-whatsapp"></i>  CUPO LIMITADO</a>
+          <a target="_blank" href="https://wa.me/527776089602" class="cta-button"><i class="fa-brands fa-whatsapp"></i>  CUPO LIMITADO</a>
         </div>
         <div class="hero-right">
           <img src="https://res.cloudinary.com/dr3e3isjq/image/upload/v1689310101/Yvonne-01---Amistad-Live_pxmn3e.png" width="300" height="287" alt="Conferencista 1: Yvone Muñoz" />
@@ -81,7 +85,7 @@ export default component$(() => {
           <span class="cost-line-1">En este congreso, tendrás la oportunidad de escuchar una de las líderes más importantes de nuestro País y una de las voces más prodigiosas de Adoración de Latinoamérica</span>
           <span class="cost-line-2">COSTO DEL CONGRESO</span>
           <span class="cost-line-3">$500.00 MXP</span>
-          <a  target="_blank" href="https://wa.me/527776089602" class="cost-cta-button"> <i class="fa-brands fa-whatsapp"></i> 777-608-9602</a>
+          <a target="_blank" href="https://wa.me/527776089602" class="cost-cta-button"> <i class="fa-brands fa-whatsapp"></i> 777-608-9602</a>
         </div>
       </section>
 
@@ -95,7 +99,7 @@ export default component$(() => {
             </div>
             <h3 class="gratis">GRATIS CON TU ACCESO AL CONGRESO</h3>
             <div class="botton-centred">
-              <a  target="_blank" href="https://wa.me/527776089602" class="gratis-cta-button"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+              <a target="_blank" href="https://wa.me/527776089602" class="gratis-cta-button"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
             </div>
           </div>
           <div class="congress-card-photo">
@@ -150,7 +154,7 @@ export default component$(() => {
           <h1>CUPO LIMITADO</h1>
           <h2>APARTA TU LUGAR</h2>
           <div class="botton-centred">
-            <a  target="_blank" href="https://wa.me/527776089602" class="gratis-cta-button"> <i class="fa-brands fa-whatsapp"></i>  777-608-9602</a>
+            <a target="_blank" href="https://wa.me/527776089602" class="gratis-cta-button"> <i class="fa-brands fa-whatsapp"></i>  777-608-9602</a>
           </div>
         </div>
       </section>
@@ -164,7 +168,7 @@ export default component$(() => {
             <h3>Contáctanos</h3>
             <p><b>Dirección:</b></p>
             <p>Privada Sol #7, Col. Chapultepec, CP. 62450, Cuernavaca, Morelos</p>
-            <a  target="_blank" href="https://goo.gl/maps/wCWhZcAgPwcTCcRY9" class="como-llegar">¿CÓMO LLEGAR?</a>
+            <a target="_blank" href="https://goo.gl/maps/wCWhZcAgPwcTCcRY9" class="como-llegar">¿CÓMO LLEGAR?</a>
             <p><b><i class="fa-brands fa-whatsapp"></i>  WhatsApp</b></p>
             <p>777-608-9602</p>
           </div>
@@ -175,6 +179,10 @@ export default component$(() => {
         <div class="footer">
           <AmistadLogo variant='light' style="amistad-logo" />
           <div class="social-icons">
+            <a target="_blank" href="https://www.facebook.com/AmistadLiveGlobal/" aria-label="Browse our Facebook"><FacebookIcon style="icons" /></a>
+            <a target="_blank" href="https://www.instagram.com/amistad.live" aria-label="Browse our Instagram"><InstagramIcon style="icons" /></a>
+            <a target="_blank" href="https://www.youtube.com/c/AmistadLive" aria-label="Browse our Youtube"><YoutubeIcon style="icons" /></a>
+            <a target="_blank" href="https://wa.me/527776089602" aria-label="Contact us by Whatsapp"><WhatsappIcon style="icons" /></a>
           </div>
         </div>
       </footer>

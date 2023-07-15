@@ -12,11 +12,11 @@ import { Photo } from '~/components/Photo/Photo';
 export default component$(() => {
 
   const actionButton: ButtonProps[] = [
-    {
-      text: 'Quiero saber más',
-      variant: 'primary',
-      href: "/contacto"
-    },
+    // {
+    //   text: 'Quiero saber más',
+    //   variant: 'primary',
+    //   href: "/contacto"
+    // },
     {
       text: 'WhatsApp',
       variant: 'green',
@@ -35,26 +35,29 @@ export default component$(() => {
         actions={actionButton}
         align='right'
       />
-      <Headline headline='this is Headline' subHeadline='and this is sub-headline' />
+      <Headline headline='En Amistad Live' subHeadline='Somos Familia' />
       <div class={styles.gridCardContainer}>
-        <CardWithIcon title="Title card">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quaerat inventore dolor numquam reiciendis in quis quisquam quod facere dolore eaque voluptatibus, earum saepe, vitae voluptas et qui? Architecto, error?
+        <CardWithIcon title="Servicio">
+          Quieres experimentar la dicha de servir a otros, ¡únete a un equipo!, Estaremos felices de tenerte en nuestras filas y hay equipos de todos los intereses: anfitriones, cocina, jovenes, niños, y muchos equipos más.
         </CardWithIcon>
-        <CardWithIcon title="Title card">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quaerat inventore dolor numquam reiciendis in quis quisquam quod facere dolore eaque voluptatibus, earum saepe, vitae voluptas et qui? Architecto, error?
+        <CardWithIcon title="Nuestras reuniones">
+          Puedes acompañarnos en todas nuestras reuniones, las reuniones generales los domingos, Celebremos la vida los martes, o quizás, alguna de nuestras reuiones entre mujeres, varones, evangelismo y muchas más. ¡Contáctanos para mayores informes!
         </CardWithIcon>
-        <CardWithIcon title="Title card">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quaerat inventore dolor numquam reiciendis in quis quisquam quod facere dolore eaque voluptatibus, earum saepe, vitae voluptas et qui? Architecto, error?
+        <CardWithIcon title="Online">
+          Tambien puedes seguirnos en nuestras redes sociales, trasmitimos las reuniones cada domingo en Youtube, o puedes platicar con nostros a través de nuestro Facebook, Instagram o directametne a través de WhatsApp ¿Quieres contactarnos?
         </CardWithIcon>
       </div>
-      <Headline headline='LOVE AND COMPASSION' subHeadline='and this is sub-headline' />
+      <Headline subHeadline='En amistad live no solo escucharás sobre Dios' headline='¡Podrás experiemntarlo y vivirlo!' />
       <Typography as="p" style={styles.paragraph}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Actualmente nustro sitio se encuentra en remodelación por lo que posiblemente no encuntres todo lo que buscas aquí, pero pronto volveremos a estar en línea.
+      </Typography>
+      <Typography as="h4" style={styles.paragraph}>
+        ¡Pero puedes contactarnos o seguirnos en nuestras redes sociales!
       </Typography>
       <div class={styles.gridImagesContainer}>
-      <Photo src='https://cdn.pixabay.com/photo/2017/08/30/12/18/kid-2696865_1280.jpg' alt="kid" />
-      <Photo src='https://cdn.pixabay.com/photo/2022/04/30/20/45/friendship-7166375_1280.jpg' alt="family" />
-      <Photo src='https://cdn.pixabay.com/photo/2016/11/29/04/48/man-1867390_1280.jpg' alt="pray" />
+        <Photo src='https://cdn.pixabay.com/photo/2017/08/30/12/18/kid-2696865_1280.jpg' alt="kid" />
+        <Photo src='https://cdn.pixabay.com/photo/2022/04/30/20/45/friendship-7166375_1280.jpg' alt="family" />
+        <Photo src='https://cdn.pixabay.com/photo/2016/11/29/04/48/man-1867390_1280.jpg' alt="pray" />
       </div>
     </div>
   );

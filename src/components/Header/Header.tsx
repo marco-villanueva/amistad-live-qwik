@@ -14,10 +14,13 @@ export const Header = component$(() => {
   const toggleMenu = $(() => isMenuOpenSignal.value = !isMenuOpenSignal.value);
 
   const links = (<div class={styles.navMenu}>
-    <Link>
+    <Link href="/">
       <span>Inicio</span>
     </Link>
-    <Link>
+    <Link href="/mujeres2023/">
+      <span>Congreso de Mujeres 2023</span>
+    </Link>
+    {/* <Link>
       <span>Quienes Somos</span>
     </Link>
     <Link>
@@ -28,8 +31,8 @@ export const Header = component$(() => {
     </Link>
     <Link>
       <span>Contacto</span>
-    </Link>
-    <Button variant="nav" text='Visítanos' />
+    </Link> */}
+      {/* <Button variant="nav" text='Visítanos' /> */}
   </div>);
 
   const mobileMenu = <>
