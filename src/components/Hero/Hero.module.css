@@ -24,10 +24,10 @@
     text-transform: uppercase;
 }
 
-.note {
-}
+/* .note {
+} */
 
-@media (min-width: 1080px) {
+/* @media (min-width: 1080px) {
 
     .hero {
         padding: 2rem 8rem;
@@ -52,9 +52,9 @@
     .note {
         margin: 0.75rem 0;
     }
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 
     .hero {
         padding: 0.5rem 1rem;
@@ -75,4 +75,4 @@
     .note {
         margin: 0.75rem 0;
     }
-}
+} */
