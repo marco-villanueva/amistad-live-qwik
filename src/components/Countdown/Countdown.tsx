@@ -17,7 +17,6 @@ export const Countdown = component$<CountdownProps>(({ date }) => {
 
     const calculateTimeLeft = $(() => {
         const difference = +targetDate - +new Date();
-        console.log({difference})
         let timeLeft: timeLeft = {
             days: 0,
             hours: 0,

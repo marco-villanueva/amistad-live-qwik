@@ -195,7 +195,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Bienvenidos a Amistad Live',
+  title: 'Congreso de Mujeres 2023 - Vivamos en Libertad - Amistad Live',
   meta: [
     {
       name: 'Congreso entre Mujeres: Vivamos en Libertad - Amistad Live',
