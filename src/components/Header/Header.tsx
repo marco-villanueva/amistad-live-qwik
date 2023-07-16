@@ -2,7 +2,7 @@ import { $, component$, useSignal } from '@builder.io/qwik';
 import styles from './Header.module.css';
 import { AmistadLogo } from '../icons/AmistadLogo';
 import { Link } from '@builder.io/qwik-city';
-import { Button } from '../Button/Button';
+// import { Button } from '../Button/Button';
 import { useScreenSize } from '~/hooks/useScreenSize';
 import { Menu } from "../icons/menu";
 
@@ -32,7 +32,7 @@ export const Header = component$(() => {
     <Link>
       <span>Contacto</span>
     </Link> */}
-      {/* <Button variant="nav" text='Visítanos' /> */}
+    {/* <Button variant="nav" text='Visítanos' /> */}
   </div>);
 
   const mobileMenu = <>
@@ -59,7 +59,14 @@ export const Header = component$(() => {
           </svg>
         </div>
 
-        <Link>
+        <Link href="/">
+          <span>Inicio</span>
+        </Link>
+        <Link href="/mujeres2023/">
+          <span>Congreso de Mujeres 2023</span>
+        </Link>
+
+        {/* <Link>
           <span>Inicio</span>
         </Link>
         <Link>
@@ -74,7 +81,7 @@ export const Header = component$(() => {
         <Link>
           <span>Contacto</span>
         </Link>
-        <Button variant="nav" text='Visítanos' />
+        <Button variant="nav" text='Visítanos' /> */}
 
       </div>
     </>}
