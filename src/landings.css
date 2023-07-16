@@ -85,36 +85,36 @@
         flex-direction: column;
         padding: 30px;
     }
-  
+
     .hero-left {
         margin-left: 0;
         margin-bottom: 2rem;
         text-align: center;
     }
-  
+
     .hero-line-1 {
         font-size: 4rem;
     }
-  
+
     .hero-line-2 {
         font-size: 3rem;
     }
-  
+
     .hero-line-3 {
         font-size: 1.8rem;
     }
-  
+
     .hero-line-4 {
         font-size: 1.7rem;
     }
-  
+
     .hero-right {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 2rem;
     }
-  
+
     .hero-right img {
         width: 200px;
         height: auto;
@@ -153,15 +153,15 @@
         align-items: center;
         gap: 1.5rem;
     }
-  
+
     .countdown-dots {
         display: none;
     }
-  
+
     .countdown-number {
         font-size: 4rem;
     }
-  
+
     .countdown-text {
         font-size: 1.5rem;
     }
@@ -252,7 +252,7 @@
         max-width: 100%;
     }
 
-    
+
     .congress-card-left,
     .congress-card-right {
         flex-basis: auto;
@@ -262,16 +262,16 @@
     .congress-card-right {
         padding: 1rem;
     }
-  
-  
+
+
     .congress-card-left iframe {
         height: 200px;
     }
-  
+
     .congress-card-right h3 {
         font-size: 20px;
     }
-  
+
     .congress-card-right p {
         font-size: 16px;
         margin-bottom: 10px;
@@ -353,35 +353,35 @@
         display: flex;
         flex-direction: column;
     }
-  
+
     .icon-with-text-box {
         flex-direction: column;
         align-items: center;
         margin-bottom: 2rem;
     }
-  
+
     .icons-main-container {
         padding: 1rem;
     }
-  
+
     .icon-text {
         margin-top: 1rem;
         text-align: center;
     }
-  
+
     .cost-container {
         padding: 2rem;
         width: 100%;
     }
-  
+
     .cost-line-1 {
         font-size: 1.25rem;
     }
-  
+
     .cost-line-2 {
         font-size: 2.5rem;
     }
-  
+
     .cost-line-3 {
         font-size: 4rem;
     }
@@ -461,31 +461,31 @@
     .congress-card {
         flex-direction: column-reverse;
     }
-  
+
     .congress-card-photo {
         width: 100%;
         min-height: 20rem;
     }
-  
+
     .congress-card-right {
         margin-bottom: 2rem;
     }
-  
+
     .concert-date {
         margin-top: 1rem;
         margin-left: 2rem;
         text-align: center;
     }
-  
+
     .concert-date-price {
         margin-right: -1rem;
         margin-top: 1rem;
     }
-  
+
     .congress-card .gratis {
         margin-top: 1rem;
     }
-  
+
     .botton-centred {
         display: flex;
         justify-content: center;
@@ -563,7 +563,7 @@ s::before {
     .white-card {
         flex-direction: column;
     }
-  
+
     .white-card-left {
         padding: 20px;
         text-align: center;
@@ -574,18 +574,18 @@ s::before {
         width: 100%;
         height: auto;
     }
-  
+
     .white-card-right {
         text-align: center;
     }
-  
+
     .white-card-image {
         width: 100%;
         height: 300px;
         border-radius: 20px;
         margin-bottom: 20px;
     }
-  
+
     .white-card-right img {
         width: 100%;
         max-width: 300px;
@@ -704,16 +704,16 @@ footer img {
         align-items: center;
         padding: 1rem;
     }
-  
+
     .footer img {
         margin-bottom: 1rem;
     }
-  
+
     .social-icons {
         margin-left: 0;
         gap: 0.5rem;
     }
-  
+
     .icons {
         width: 2.5rem;
         height: 2.5rem;
@@ -730,7 +730,7 @@ footer img {
 
 /* AQUI VA EL CSS DEL TIMELINE  */
 
-.timeline-title{
+.timeline-title {
     text-align: center;
     margin: 1rem auto;
     font-size: 1.25rem;
@@ -831,4 +831,11 @@ footer img {
     width: 11px;
     content: "";
     top: 5px;
+}
+
+@media (max-width: 768px) {
+    #timeline-content {
+        margin-left: 10rem;
+    }
+
 }
