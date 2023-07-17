@@ -20,6 +20,9 @@ export const Header = component$(() => {
     <Link href="/mujeres2023/">
       <span>Congreso de Mujeres 2023</span>
     </Link>
+    <Link href="/adoracion2023/">
+      <span>Noche de Adoración 2023</span>
+    </Link>
     {/* <Link>
       <span>Quienes Somos</span>
     </Link>
@@ -64,6 +67,9 @@ export const Header = component$(() => {
         </Link>
         <Link href="/mujeres2023/">
           <span>Congreso de Mujeres 2023</span>
+        </Link>
+        <Link href="/adoracion2023/">
+          <span>Noche de Adoración 2023</span>
         </Link>
 
         {/* <Link>
