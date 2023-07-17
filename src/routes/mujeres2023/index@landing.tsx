@@ -41,7 +41,7 @@ export default component$(() => {
       <section class="congress-section">
         <div class="congress-card">
           <div class="congress-card-left">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2E41dp-co8E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/B0s2Uxa2LtI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
           <div class="congress-card-right">
             <h3>Experimenta un día de transformación y avivamiento con el poder del Espíritu Santo</h3>
@@ -49,9 +49,6 @@ export default component$(() => {
             <p>Descubre las estrategias más efectivas para alcanzar tus metas y sueños, mientras te conectas con otras mujeres apasionadas y comprometidas como tú.</p>
           </div>
         </div>
-      </section>
-
-      <section class="fullwidth-section">
       </section>
 
       <section class="cost-section-container">
@@ -84,7 +81,7 @@ export default component$(() => {
         <div class="cost-container">
           <span class="cost-line-1">En este congreso, tendrás la oportunidad de escuchar una de las líderes más importantes de nuestro País y una de las voces más prodigiosas de Adoración de Latinoamérica</span>
           <span class="cost-line-2">COSTO DEL CONGRESO</span>
-          <span class="cost-line-3">$500.00 MXP</span>
+          <span class="cost-line-3">$500.00</span>
           <a target="_blank" href="https://wa.me/527776089602" class="cost-cta-button"> <i class="fa-brands fa-whatsapp"></i> 777-608-9602</a>
         </div>
       </section>

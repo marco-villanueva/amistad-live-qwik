@@ -81,9 +81,63 @@
 }
 
 @media (max-width: 768px) {
+    .header {
+        padding: 2rem 2rem;
+        background-color: var(--beige);
+    }
+
     .hero {
         flex-direction: column;
-        padding: 30px;
+        padding: 3rem 1rem;
+    }
+
+    .hero-left {
+        margin-left: 0;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .hero-line-1 {
+        font-size: 4rem;
+    }
+
+    .hero-line-2 {
+        font-size: 3rem;
+    }
+
+    .hero-line-3 {
+        font-size: 1.8rem;
+    }
+
+    .hero-line-4 {
+        font-size: 1.7rem;
+    }
+
+    .hero-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .hero-right img {
+        width: 200px;
+        height: auto;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 1250px) {
+    .header {
+        padding: 2rem 2rem;
+        background-color: var(--beige);
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 3rem 1rem;
     }
 
     .hero-left {
@@ -224,7 +278,6 @@
 
 .congress-card-left iframe {
     width: 100%;
-    height: 300px;
 }
 
 .congress-card-right {
@@ -246,8 +299,9 @@
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
     .congress-card {
+        padding: 1rem;
         flex-direction: column;
         max-width: 100%;
     }
@@ -261,11 +315,6 @@
 
     .congress-card-right {
         padding: 1rem;
-    }
-
-
-    .congress-card-left iframe {
-        height: 200px;
     }
 
     .congress-card-right h3 {
@@ -370,8 +419,8 @@
     }
 
     .cost-container {
-        padding: 2rem;
-        width: 100%;
+        padding: 1rem;
+        align-self: center;
     }
 
     .cost-line-1 {
@@ -453,6 +502,7 @@
 
 .concert-date-container {
     text-align: center;
+    margin-top: 1rem;
 }
 
 .congress-card .gratis {
@@ -460,7 +510,11 @@
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
+    .congress-section{
+        padding: 1rem;
+    }
+
     .congress-card {
         flex-direction: column-reverse;
     }
@@ -468,15 +522,20 @@
     .congress-card-photo {
         width: 100%;
         min-height: 20rem;
+        background-position-y: 20%;
     }
 
     .congress-card-right {
         margin-bottom: 2rem;
     }
 
+    .concert-date-container {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
     .concert-date {
         margin-top: 1rem;
-        margin-left: 2rem;
         text-align: center;
     }
 
@@ -562,7 +621,7 @@ s::before {
     border-radius: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
     .white-card {
         flex-direction: column;
     }
@@ -632,6 +691,22 @@ s::before {
 .conferencista p {
     font-size: 18px;
     text-align: left;
+}
+
+@media (max-width: 768px) {
+
+    .image-background-section{
+        padding: 1rem;
+    }
+
+    .conferencista {
+        padding: 1rem;
+    }
+
+    .conferencista img {
+        width: 80%;
+        height: auto;
+    }
 }
 
 .timeline-section {
