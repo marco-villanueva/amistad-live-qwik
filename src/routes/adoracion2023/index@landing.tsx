@@ -845,7 +845,7 @@ export default component$(() => {
                         <p>Yvonne lleva una trayectoria de más de 19 años sirviendo en el ministerio del pastor y cantautor, Marco Barrientos, fidelidad y entrega le caracterizan durante ese tiempo.</p>
                     </div>
                     <div class="congress-card-left">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/B0s2Uxa2LtI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5YjjZjnORNU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
             </section>
@@ -915,10 +915,10 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-    title: 'Congreso de Mujeres 2023 - Vivamos en Libertad - Amistad Live',
+    title: 'Noche de Adoración con Yvonne Muñoz - Amistad Live',
     meta: [
         {
-            name: 'Congreso entre Mujeres: Vivamos en Libertad - Amistad Live',
+            name: 'Noche de Adoración con Yvonne Muñoz - Amistad Live',
             content: 'Somos Amistad Live, una comunidad, una familia',
         },
     ],
