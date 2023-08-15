@@ -2,7 +2,6 @@ import { $, component$, useSignal } from '@builder.io/qwik';
 import styles from './Header.module.css';
 import { AmistadLogo } from '../icons/AmistadLogo';
 import { Link } from '@builder.io/qwik-city';
-// import { Button } from '../Button/Button';
 import { useScreenSize } from '~/hooks/useScreenSize';
 import { Menu } from "../icons/menu";
 
