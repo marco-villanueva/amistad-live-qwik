@@ -6,12 +6,13 @@
     max-height: 23.75rem;
     aspect-ratio: 41 / 38;
     position: relative;
-
+    border-radius: 1rem;
     display: grid;
     grid-template-rows: 95% 5%;
 }
 
 .infoContainer {
+    border-radius: 1rem 1rem 0 0;
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -35,6 +36,7 @@
 }
 
 .decorator {
+    border-radius: 0 0 1rem 1rem;
     background-color: var(--theme-primary100);
     height: 1rem;
     bottom: 0;

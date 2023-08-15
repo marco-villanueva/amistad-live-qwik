@@ -1,88 +1,59 @@
 .main {
     background-color: var(--theme-neutral90);
     color: var(--theme-neutral0);
-    gap: 2rem;
+    gap: 1rem;
     justify-content: space-between;
-    min-height: 15rem;
-    padding: 2rem 5rem;
+    padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-top: 2rem;
-
-    /* @media (max-width: 600px) {
-        padding: 2rem 2rem;
-    } */
-}
-
-.branding {
+  }
+  
+  .branding {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-}
-
-.logo {
-    max-width: 5rem;
-    max-height: 5rem;
-}
-
-.title {
+    gap: 0.5rem;
+  }
+  
+  .logo {
+    max-width: 4rem;
+    max-height: 4rem;
+  }
+  
+  .title {
     font-weight: bold;
-}
-
-.subtitle {
+  }
+  
+  .subtitle {
     font-weight: bold;
-    font-size: 0.85rem;
-}
-
-.links {
-
+    font-size: 0.75rem;
+  }
+  
+  .links {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1rem;
-}
-
-.icon {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-.icon path {
-    fill: var(--theme-primary100);
-}
-
-.socialNetworksIcons {
+    gap: 1rem;
+  }
+  
+  .socialNetworksIcons {
     display: flex;
-    flex-direction: row;
     gap: 1rem;
-}
-
-.input {
-    background-color: var(--theme-neutral90);
-    border-color: var(--theme-neutral50);
-    border-radius: 10px 0 0 10px;
-    border-style: solid;
-    border-width: 1px;
-    color: var(--theme-neutral0);
-    font-size: 1rem;
-    height: 3.75rem;
-    justify-self: end;
-    margin-right: -1rem;
-    padding-left: 1rem;
-    width: 16rem;
-
-    /* @media (max-width: 600px) {
-        width: 100%;
-        border-radius: 10px;
-    } */
-}
-
-.form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-
-    /* @media (max-width: 600px) {
-        grid-template-columns: unset;
-        justify-content: center;
-    } */
-}
+  }
+  
+  .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .icon path {
+    fill: var(--theme-primary100);
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (min-width: 600px) {
+    .main {
+      grid-template-columns: 1fr 1fr;
+      padding: 2rem 5rem;
+    }
+  
+    .links {
+      grid-template-columns: 1fr 1fr;
+    }
+  }

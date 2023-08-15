@@ -4,7 +4,6 @@ import { FacebookIcon } from '../icons/FacebookIcon';
 import { InstagramIcon } from '../icons/InstagramIcon';
 import { YoutubeIcon } from '../icons/YoutubeIcon';
 import { WhatsappIcon } from '../icons/WhatsappIcon';
-import { Button } from '../Button/Button';
 import { AmistadIcon } from '../icons/AmistadIcon';
 
 export const Footer = component$(() => {
@@ -33,13 +32,6 @@ export const Footer = component$(() => {
           <a href="#" aria-label="Contact us by Whatsapp"><WhatsappIcon style={styles.icon} /></a>
         </div>
       </div>
-    </div>
-    <div class={styles.newsletter}>
-      <h5>Newsletter Subscribe</h5>
-      <form class={styles.form}>
-        <input class={styles.input} type="email" placeholder="Correo electrónico" />
-        <Button type="submit" text="Suscribirse" variant="primary" />
-      </form>
     </div>
   </div>
 });

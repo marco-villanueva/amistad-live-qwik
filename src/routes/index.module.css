@@ -1,10 +1,21 @@
 .gridCardContainer {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(420px, max-content));
-  justify-content: center;
-  justify-items: center;
-  max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+    justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .gridCardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gridCardContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .gridImagesContainer {

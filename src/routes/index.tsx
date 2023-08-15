@@ -46,6 +46,9 @@ export default component$(() => {
         <CardWithIcon title="Online">
           Tambien puedes seguirnos en nuestras redes sociales, trasmitimos las reuniones cada domingo en Youtube, o puedes platicar con nostros a través de nuestro Facebook, Instagram o directametne a través de WhatsApp ¿Quieres contactarnos?
         </CardWithIcon>
+        <CardWithIcon title="Online">
+          Tambien puedes seguirnos en nuestras redes sociales, trasmitimos las reuniones cada domingo en Youtube, o puedes platicar con nostros a través de nuestro Facebook, Instagram o directametne a través de WhatsApp ¿Quieres contactarnos?
+        </CardWithIcon>
       </div>
       <Headline subHeadline='En amistad live no solo escucharás sobre Dios' headline='¡Podrás experiemntarlo y vivirlo!' />
       <Typography as="p" style={styles.paragraph}>
@@ -54,11 +57,6 @@ export default component$(() => {
       <Typography as="h4" style={styles.paragraph}>
         ¡Pero puedes contactarnos o seguirnos en nuestras redes sociales!
       </Typography>
-      {/* <div class={styles.gridImagesContainer}>
-        <Photo src='https://cdn.pixabay.com/photo/2017/08/30/12/18/kid-2696865_1280.jpg' alt="kid" />
-        <Photo src='https://cdn.pixabay.com/photo/2022/04/30/20/45/friendship-7166375_1280.jpg' alt="family" />
-        <Photo src='https://cdn.pixabay.com/photo/2016/11/29/04/48/man-1867390_1280.jpg' alt="pray" />
-      </div> */}
     </div>
   );
 });

@@ -6,11 +6,11 @@
 :root {
   --theme-neutral100: #0D0D0D;
   --theme-neutral90: #161722;
-  --theme-primary100: #FFD2A4;
-  --theme-primary50: #FFF5EB;
-  --theme-primary25: #F5F2F0;
+  --theme-primary100: #ebebeb;
+  --theme-primary50: #f7f7f7;
+  --theme-primary25: #ffffff;
   --theme-neutral0: white;
-  --theme-green100: #2ab318;
+  --theme-green100: #008431;
 
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'PT Serif', serif;

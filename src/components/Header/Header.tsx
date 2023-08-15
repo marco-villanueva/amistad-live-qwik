@@ -17,12 +17,6 @@ export const Header = component$(() => {
     <Link href="/">
       <span>Inicio</span>
     </Link>
-    <Link href="/mujeres2023/">
-      <span>Congreso de Mujeres 2023</span>
-    </Link>
-    <Link href="/adoracion2023/">
-      <span>Noche de Adoración 2023</span>
-    </Link>
     {/* <Link>
       <span>Quienes Somos</span>
     </Link>
@@ -65,13 +59,6 @@ export const Header = component$(() => {
         <Link href="/">
           <span>Inicio</span>
         </Link>
-        <Link href="/mujeres2023/">
-          <span>Congreso de Mujeres 2023</span>
-        </Link>
-        <Link href="/adoracion2023/">
-          <span>Noche de Adoración 2023</span>
-        </Link>
-
         {/* <Link>
           <span>Inicio</span>
         </Link>
@@ -96,7 +83,7 @@ export const Header = component$(() => {
   return (
     <div class={styles.header}>
       <div class={styles.logoContainer}>
-        <AmistadLogo variant='light' style={styles.logo} />
+        <AmistadLogo variant='dark' style={styles.logo} />
       </div>
 
       {screenSize === 'mobile' ? mobileMenu : links}
