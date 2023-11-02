@@ -16,6 +16,9 @@ export const Header = component$(() => {
     <Link href="/">
       <span>Inicio</span>
     </Link>
+    <Link href="/profetas2023">
+      <span>Escuela Profética 2023</span>
+    </Link>
     {/* <Link>
       <span>Quienes Somos</span>
     </Link>
@@ -57,6 +60,9 @@ export const Header = component$(() => {
 
         <Link href="/">
           <span>Inicio</span>
+        </Link>
+        <Link href="/profetas2023">
+          <span>Escuela Profética 2023</span>
         </Link>
         {/* <Link>
           <span>Inicio</span>
