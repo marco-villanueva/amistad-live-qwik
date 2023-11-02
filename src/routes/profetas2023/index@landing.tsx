@@ -11,7 +11,6 @@ import { YoutubeIcon } from '~/components/icons/YoutubeIcon';
 export default component$(() => {
 
     useStylesScoped$(`
-
     .landing {
         background-color: #2c8a9f;
     }
