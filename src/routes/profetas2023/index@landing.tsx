@@ -400,10 +400,10 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-    title: 'Noche de Adoración con Yvonne Muñoz - Amistad Live',
+    title: 'Escuela Profética 2023 - Amistad Live',
     meta: [
         {
-            name: 'Noche de Adoración con Yvonne Muñoz - Amistad Live',
+            name: 'Escuela Profética 2023 - Amistad Live',
             content: 'Somos Amistad Live, una comunidad, una familia',
         },
     ],
